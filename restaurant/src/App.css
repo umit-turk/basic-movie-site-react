@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+button{
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(164, 220, 224);
+}
+
+.restaurants{
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+.restaurantDiv{
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  background-color: rgba(252, 246, 195, 0.884);
+}
+.restaurant{
+display: flex;
+}
+.logo{
+width: 200px;
+height: 100px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.restaurantInfo{
+display: flex;
+flex-direction: column;
+padding-left: 15px;
+width: 100%;
+}
+.restaurantNameType{
+display: flex;
+justify-content: space-between;
+}
+/* .restaurantName{
+  
+}
+.restaurantType{
+
+} */
+.restaurantDesc{
+  padding: 10px 0;
+}
+.restaurantAddress{
+  padding: 10px 0;
+}
+.restauranDaysDiv{
+  display: flex;
+  flex-direction: column;
+}
+.restauranDays{
+  display: flex;
+  padding-top: 5px;
+}
+.day{
+  margin-right: 10px;
+}
